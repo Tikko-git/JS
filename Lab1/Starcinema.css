@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+h2 {
+    color: #333;
+}
+.schedule {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.movie-item {
+    margin: 5px 0;
+}
+.movie-item:hover {
+    background-color: #b0e0e6;
+}
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.hidden {
+    display: none;
+}
