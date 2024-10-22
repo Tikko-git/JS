@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+
+  #reminderList {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #reminderList li {
+    font-size: 16px; 
+    margin-bottom: 10px;
+  }
+
+  #reminderList li.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 5px;
+    margin-left: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  

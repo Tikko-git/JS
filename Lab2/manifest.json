@@ -1,0 +1,15 @@
+{
+
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Reminder Extension",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["storage", "notifications"],
+    "background": {
+    "service_worker": "background.js"
+  }
+  }
+  
